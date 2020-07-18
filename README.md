@@ -12,3 +12,7 @@ of first- and second-order derivatives. The Laplacian, being a second-order deri
 The same steps are carried out in our second algorithm except that instead of Sobel edge detection we use Otsu Binarization.
 
 In order to carry out the above mentioned processes we have made use of a Python package called PyMP. This package brings OpenMP-like functionality to Python. It takes the good qualities of OpenMP such as minimal code changes and high efficiency and combines them with the Python Zen of code clarity and ease-of-use.
+
+# Speedup
+
+The speedup achieved for both otsu and sobel during parallel execution nearly 1.5 
