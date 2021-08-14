@@ -1,7 +1,7 @@
 # Image Enhancement and Tumor Detection using PyMp
 
 Image enhancement is very popular domain especially in the medical sphere. Most of the enhancement is done with classification as an end goal. For example, detecting if a tumor is malignant or benign based on a scan. There are numerous existing systems which does image enhancement to increase the probability for tumor detection or any other medical applications but there are very less solutions that can be deployed in real time basis due to the time constraints. Medical Image analysis can be considered as a critical application and desire to make the computations as real time as possible always exists. The drawbacks of most of the existing system is that it is computationally very expensive in terms of time when applied across large data sets. It is this drawback that we are trying to reduce
-by parallelising the computations. The current image enhancement pipeline we have chosen is an application of simple image enhancement techniques such as fundamental Laplacian Sharpening, Gaussian Smoothing, Sobel, Otsu’s Algorithm and Power Law transformation. Hence the goal of proposed system is to reduce the execution time by parallelising at every sage which leads to an overall cascaded performance boost.
+by parallelising the computations. The current image enhancement pipeline we have chosen is an application of simple image enhancement techniques such as fundamental Laplacian Sharpening, Gaussian Smoothing, Sobel, Otsu’s Algorithm and Power Law transformation. Hence the goal of proposed system is to reduce the execution time by parallelising at every stage which leads to an overall cascaded performance boost.
 
 # Methodology
 
